@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB12D1F292E20C200D339B7 /* SitUp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AEB12D1E292E20C200D339B7 /* SitUp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AEB12D24292E20C200D339B7 /* SitUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB12D23292E20C200D339B7 /* SitUpApp.swift */; };
+		AEB12D26292E20C200D339B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB12D25292E20C200D339B7 /* ContentView.swift */; };
+		AEB12D28292E20C300D339B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB12D27292E20C300D339B7 /* Assets.xcassets */; };
+		AEB12D2B292E20C300D339B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB12D2A292E20C300D339B7 /* Preview Assets.xcassets */; };
+		AEB12D35292E20C300D339B7 /* SitUp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB12D34292E20C300D339B7 /* SitUp_Watch_AppTests.swift */; };
+		AEB12D3F292E20C300D339B7 /* SitUp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB12D3E292E20C300D339B7 /* SitUp_Watch_AppUITests.swift */; };
+		AEB12D41292E20C300D339B7 /* SitUp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB12D40292E20C300D339B7 /* SitUp_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEB12D20292E20C200D339B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEB12D12292E20C200D339B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEB12D1D292E20C200D339B7;
+			remoteInfo = "SitUp Watch App";
+		};
+		AEB12D31292E20C300D339B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEB12D12292E20C200D339B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEB12D1D292E20C200D339B7;
+			remoteInfo = "SitUp Watch App";
+		};
+		AEB12D3B292E20C300D339B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEB12D12292E20C200D339B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEB12D1D292E20C200D339B7;
+			remoteInfo = "SitUp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEB12D47292E20C300D339B7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AEB12D1F292E20C200D339B7 /* SitUp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AEB12D18292E20C200D339B7 /* SitUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SitUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB12D1E292E20C200D339B7 /* SitUp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SitUp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB12D23292E20C200D339B7 /* SitUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitUpApp.swift; sourceTree = "<group>"; };
+		AEB12D25292E20C200D339B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEB12D27292E20C300D339B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB12D2A292E20C300D339B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEB12D30292E20C300D339B7 /* SitUp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SitUp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB12D34292E20C300D339B7 /* SitUp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitUp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		AEB12D3A292E20C300D339B7 /* SitUp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SitUp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB12D3E292E20C300D339B7 /* SitUp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitUp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		AEB12D40292E20C300D339B7 /* SitUp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitUp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB12D1B292E20C200D339B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB12D2D292E20C300D339B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB12D37292E20C300D339B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB12D11292E20C200D339B7 = {
+			isa = PBXGroup;
+			children = (
+				AEB12D22292E20C200D339B7 /* SitUp Watch App */,
+				AEB12D33292E20C300D339B7 /* SitUp Watch AppTests */,
+				AEB12D3D292E20C300D339B7 /* SitUp Watch AppUITests */,
+				AEB12D19292E20C200D339B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB12D19292E20C200D339B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB12D18292E20C200D339B7 /* SitUp.app */,
+				AEB12D1E292E20C200D339B7 /* SitUp Watch App.app */,
+				AEB12D30292E20C300D339B7 /* SitUp Watch AppTests.xctest */,
+				AEB12D3A292E20C300D339B7 /* SitUp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB12D22292E20C200D339B7 /* SitUp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AEB12D23292E20C200D339B7 /* SitUpApp.swift */,
+				AEB12D25292E20C200D339B7 /* ContentView.swift */,
+				AEB12D27292E20C300D339B7 /* Assets.xcassets */,
+				AEB12D29292E20C300D339B7 /* Preview Content */,
+			);
+			path = "SitUp Watch App";
+			sourceTree = "<group>";
+		};
+		AEB12D29292E20C300D339B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEB12D2A292E20C300D339B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEB12D33292E20C300D339B7 /* SitUp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEB12D34292E20C300D339B7 /* SitUp_Watch_AppTests.swift */,
+			);
+			path = "SitUp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AEB12D3D292E20C300D339B7 /* SitUp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEB12D3E292E20C300D339B7 /* SitUp_Watch_AppUITests.swift */,
+				AEB12D40292E20C300D339B7 /* SitUp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SitUp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB12D17292E20C200D339B7 /* SitUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB12D48292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp" */;
+			buildPhases = (
+				AEB12D16292E20C200D339B7 /* Resources */,
+				AEB12D47292E20C300D339B7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB12D21292E20C200D339B7 /* PBXTargetDependency */,
+			);
+			name = SitUp;
+			productName = SitUp;
+			productReference = AEB12D18292E20C200D339B7 /* SitUp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AEB12D1D292E20C200D339B7 /* SitUp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB12D44292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp Watch App" */;
+			buildPhases = (
+				AEB12D1A292E20C200D339B7 /* Sources */,
+				AEB12D1B292E20C200D339B7 /* Frameworks */,
+				AEB12D1C292E20C200D339B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SitUp Watch App";
+			productName = "SitUp Watch App";
+			productReference = AEB12D1E292E20C200D339B7 /* SitUp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEB12D2F292E20C300D339B7 /* SitUp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB12D4B292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp Watch AppTests" */;
+			buildPhases = (
+				AEB12D2C292E20C300D339B7 /* Sources */,
+				AEB12D2D292E20C300D339B7 /* Frameworks */,
+				AEB12D2E292E20C300D339B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB12D32292E20C300D339B7 /* PBXTargetDependency */,
+			);
+			name = "SitUp Watch AppTests";
+			productName = "SitUp Watch AppTests";
+			productReference = AEB12D30292E20C300D339B7 /* SitUp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEB12D39292E20C300D339B7 /* SitUp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB12D4E292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp Watch AppUITests" */;
+			buildPhases = (
+				AEB12D36292E20C300D339B7 /* Sources */,
+				AEB12D37292E20C300D339B7 /* Frameworks */,
+				AEB12D38292E20C300D339B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB12D3C292E20C300D339B7 /* PBXTargetDependency */,
+			);
+			name = "SitUp Watch AppUITests";
+			productName = "SitUp Watch AppUITests";
+			productReference = AEB12D3A292E20C300D339B7 /* SitUp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB12D12292E20C200D339B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AEB12D17292E20C200D339B7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AEB12D1D292E20C200D339B7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AEB12D2F292E20C300D339B7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AEB12D1D292E20C200D339B7;
+					};
+					AEB12D39292E20C300D339B7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AEB12D1D292E20C200D339B7;
+					};
+				};
+			};
+			buildConfigurationList = AEB12D15292E20C200D339B7 /* Build configuration list for PBXProject "SitUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB12D11292E20C200D339B7;
+			productRefGroup = AEB12D19292E20C200D339B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB12D17292E20C200D339B7 /* SitUp */,
+				AEB12D1D292E20C200D339B7 /* SitUp Watch App */,
+				AEB12D2F292E20C300D339B7 /* SitUp Watch AppTests */,
+				AEB12D39292E20C300D339B7 /* SitUp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB12D16292E20C200D339B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB12D1C292E20C200D339B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB12D2B292E20C300D339B7 /* Preview Assets.xcassets in Resources */,
+				AEB12D28292E20C300D339B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB12D2E292E20C300D339B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB12D38292E20C300D339B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB12D1A292E20C200D339B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB12D26292E20C200D339B7 /* ContentView.swift in Sources */,
+				AEB12D24292E20C200D339B7 /* SitUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB12D2C292E20C300D339B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB12D35292E20C300D339B7 /* SitUp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB12D36292E20C300D339B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB12D41292E20C300D339B7 /* SitUp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				AEB12D3F292E20C300D339B7 /* SitUp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEB12D21292E20C200D339B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEB12D1D292E20C200D339B7 /* SitUp Watch App */;
+			targetProxy = AEB12D20292E20C200D339B7 /* PBXContainerItemProxy */;
+		};
+		AEB12D32292E20C300D339B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEB12D1D292E20C200D339B7 /* SitUp Watch App */;
+			targetProxy = AEB12D31292E20C300D339B7 /* PBXContainerItemProxy */;
+		};
+		AEB12D3C292E20C300D339B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEB12D1D292E20C200D339B7 /* SitUp Watch App */;
+			targetProxy = AEB12D3B292E20C300D339B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEB12D42292E20C300D339B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEB12D43292E20C300D339B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AEB12D45292E20C300D339B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SitUp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SitUp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.SitUp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AEB12D46292E20C300D339B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SitUp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SitUp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.SitUp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AEB12D49292E20C300D339B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				INFOPLIST_KEY_CFBundleDisplayName = SitUp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.SitUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AEB12D4A292E20C300D339B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				INFOPLIST_KEY_CFBundleDisplayName = SitUp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.SitUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB12D4C292E20C300D339B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "twq.SitUp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SitUp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SitUp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AEB12D4D292E20C300D339B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "twq.SitUp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SitUp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SitUp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AEB12D4F292E20C300D339B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "twq.SitUp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SitUp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AEB12D50292E20C300D339B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A5ZFUXKS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "twq.SitUp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SitUp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB12D15292E20C200D339B7 /* Build configuration list for PBXProject "SitUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB12D42292E20C300D339B7 /* Debug */,
+				AEB12D43292E20C300D339B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB12D44292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB12D45292E20C300D339B7 /* Debug */,
+				AEB12D46292E20C300D339B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB12D48292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB12D49292E20C300D339B7 /* Debug */,
+				AEB12D4A292E20C300D339B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB12D4B292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB12D4C292E20C300D339B7 /* Debug */,
+				AEB12D4D292E20C300D339B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB12D4E292E20C300D339B7 /* Build configuration list for PBXNativeTarget "SitUp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB12D4F292E20C300D339B7 /* Debug */,
+				AEB12D50292E20C300D339B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB12D12292E20C200D339B7 /* Project object */;
+}
